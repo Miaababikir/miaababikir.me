@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto text-center px-4 md:px-0 mt-20">
+    <div class="container mx-auto text-center px-4 md:px-0 pb-20 mt-20">
         <img :src="require('../assets/img/collaborating.svg')" class="inline-block w-64 md:w-auto" alt="Collaboration">
         <div class="mt-12">
             <h2 class="text-2xl md:text-4xl font-semibold">Interested in collaborating or investing?</h2>

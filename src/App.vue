@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="min-h-screen font-roboto text-gray-800 bg-gray-100 pb-20">
+    <div id="app" class="min-h-screen font-roboto text-gray-800 bg-gray-100">
         <base-nav/>
         <router-view/>
     </div>
