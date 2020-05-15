@@ -5,7 +5,7 @@
             <div class="md:flex px-4 md:px-0 justify-between items-center">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center">
-                        <img class="w-8" :src="require('../assets/img/logo.svg')" alt="Miaababikir Logo">
+                        <img class="w-8" :src="require('../assets/img/logos/logo.svg')" alt="Miaababikir Logo">
                         <a class="ml-2 tracking-wide font-semibold text-lg" href="/home">Miaababikir</a>
                     </div>
                     <div class="md:hidden">

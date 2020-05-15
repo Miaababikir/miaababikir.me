@@ -9,7 +9,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                     <div class="bg-gray-300 text-gray-800 rounded-lg relative overflow-hidden image-card">
                         <div class="flex flex-col items-center py-8">
-                            <img :src="require('../assets/img/meraki.svg')" alt="Meraki UI Logo" class="w-24">
+                            <img :src="require('../assets/img/logos/meraki.svg')" alt="Meraki UI Logo" class="w-24">
                             <p class="mt-4 font-semibold text-2xl">Meraki UI</p>
                         </div>
                         <div class="absolute flex flex-col items-center justify-center bg-gray-900 py-8 px-12 w-full h-full left-0 top-0 overlay">
@@ -23,7 +23,7 @@
 
                     <div class="bg-gray-300 text-gray-800 rounded-lg relative overflow-hidden image-card">
                         <div class="flex flex-col items-center py-8">
-                            <img :src="require('../assets/img/nothingworks.png')" alt="Nothing Works Logo" class="w-24">
+                            <img :src="require('../assets/img/logos/nothingworks.png')" alt="Nothing Works Logo" class="w-24">
                             <p class="mt-4 font-semibold text-2xl">Nothing works</p>
                         </div>
                         <div class="absolute flex flex-col items-center justify-center bg-gray-900 py-8 px-12 w-full h-full left-0 top-0 overlay">
@@ -37,12 +37,47 @@
 
                     <div class="bg-gray-300 text-gray-800 rounded-lg relative overflow-hidden image-card">
                         <div class="flex flex-col items-center py-8">
-                            <img :src="require('../assets/img/modulo.svg')" alt="Modulo Logo" class="w-20">
-                            <p class="mt-4 font-semibold text-2xl">Modulo</p>
+                            <img :src="require('../assets/img/logos/joevue.svg')" alt="JoeVue Logo" class="w-24">
+                            <p class="mt-4 font-semibold text-2xl">JoeVue</p>
                         </div>
                         <div class="absolute flex flex-col items-center justify-center bg-gray-900 py-8 px-12 w-full h-full left-0 top-0 overlay">
-                            <p class="text-gray-200 text-lg">Modulo provides form endpoints as a service, so your simple
-                                sites can stay simple.</p>
+                            <p class="text-gray-200 text-lg">CLI tool help you create your vue files easily.</p>
+                            <a href="https://www.npmjs.com/package/joe-vue/"
+                               class="mt-4 px-8 py-2 border-2 border-indigo-700 rounded-full text-gray-200 tracking-wider text-lg hover:bg-indigo-700">Visit
+                                Site</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-300 text-gray-800 rounded-lg relative overflow-hidden image-card">
+                        <div class="flex flex-col items-center py-8">
+                            <img :src="require('../assets/img/logos/snow.svg')" alt="Snow Logo" class="w-24">
+                            <p class="mt-4 font-semibold text-2xl">Snow Package</p>
+                        </div>
+                        <div class="absolute flex flex-col items-center justify-center bg-gray-900 py-8 px-12 w-full h-full left-0 top-0 overlay">
+                            <p class="text-gray-200 text-lg">PHP package to converts json content from Editor.js to html element.</p>
+                            <a href="https://github.com/Miaababikir/Snow/"
+                               class="mt-4 px-8 py-2 border-2 border-indigo-700 rounded-full text-gray-200 tracking-wider text-lg hover:bg-indigo-700">Visit
+                                Site</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-300 text-gray-800 rounded-lg relative overflow-hidden image-card">
+                        <div class="flex flex-col items-center py-8">
+                            <img :src="require('../assets/img/logos/twbuilder.svg')" alt="Tailwind Builder Logo" class="w-24">
+                            <p class="mt-4 font-semibold text-2xl">Tailwind Builder</p>
+                        </div>
+                        <div class="absolute flex flex-col items-center justify-center bg-gray-900 py-8 px-12 w-full h-full left-0 top-0 overlay">
+                            <p class="text-gray-200 text-lg">Beautiful and elegant tailwind builder. Helps you to scaffold your forms structure.</p>
+                            <a href="https://twbuilder.netlify.app/"
+                               class="mt-4 px-8 py-2 border-2 border-indigo-700 rounded-full text-gray-200 tracking-wider text-lg hover:bg-indigo-700">Visit
+                                Site</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-300 text-gray-800 rounded-lg relative overflow-hidden image-card">
+                        <div class="flex flex-col items-center py-8">
+                            <img :src="require('../assets/img/logos/modulo.svg')" alt="Modulo Logo" class="w-20">
+                            <p class="mt-4 font-semibold text-2xl">Modulo SAAS</p>
+                        </div>
+                        <div class="absolute flex flex-col items-center justify-center bg-gray-900 py-8 px-12 w-full h-full left-0 top-0 overlay">
+                            <p class="text-gray-200 text-lg">An open source app that provides you with form endpoints as a service for free, so your simple sites can stay simple</p>
                             <a href="http://modulo-app.herokuapp.com/"
                                class="mt-4 px-8 py-2 border-2 border-indigo-700 rounded-full text-gray-200 tracking-wider text-lg hover:bg-indigo-700">Visit
                                 Site</a>

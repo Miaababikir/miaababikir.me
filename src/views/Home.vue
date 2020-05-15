@@ -6,9 +6,11 @@
                 what I do.</p>
             <img class="mt-8 w-32 mt-16 md:w-56" :src="require('../assets/img/avatar.svg')" alt="Miaababikir Avatar">
         </header>
+
         <about/>
         <skills/>
         <projects />
+        <collaboration />
 
 
     </div>
@@ -19,9 +21,10 @@
     import About from "../components/About";
     import Skills from "../components/Skills";
     import Projects from "../components/Projects";
+    import Collaboration from "../components/Collaboration";
 
     export default {
         name: 'Home',
-        components: {Projects, Skills, About},
+        components: {Collaboration, Projects, Skills, About},
     }
 </script>
