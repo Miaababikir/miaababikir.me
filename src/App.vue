@@ -1,11 +1,14 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="app" class="font-roboto text-gray-800">
+        <base-nav/>
+        <router-view/>
     </div>
-    <router-view/>
-  </div>
 </template>
 
 <style lang="scss" src="./assets/scss/app.scss"></style>
+<script>
+    import BaseNav from "./components/BaseNav";
+    export default {
+        components: {BaseNav}
+    }
+</script>

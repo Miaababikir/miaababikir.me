@@ -1,8 +1,11 @@
 module.exports = {
-  purge: [],
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-}
+    purge: [],
+    theme: {
+        fontFamily: {
+            'roboto': ['Roboto']
+        },
+        extend: {},
+    },
+    variants: {},
+    plugins: [],
+};
