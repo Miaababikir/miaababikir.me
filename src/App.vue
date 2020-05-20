@@ -9,6 +9,9 @@
 <script>
     import BaseNav from "./components/BaseNav";
     export default {
-        components: {BaseNav}
+        components: {BaseNav},
+        mounted() {
+            this.$ga.page(this.$router);
+        }
     }
 </script>
