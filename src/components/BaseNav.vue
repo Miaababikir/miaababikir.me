@@ -6,7 +6,7 @@
                 <div class="flex justify-between items-center">
                     <div class="flex items-center">
                         <img class="w-8" :src="require('../assets/img/logos/logo.svg')" alt="Miaababikir Logo">
-                        <a class="ml-2 tracking-wide font-semibold text-lg" href="/home">Miaababikir</a>
+                        <router-link class="ml-2 tracking-wide font-semibold text-lg" to="/">Miaababikir</router-link>
                     </div>
                     <div class="md:hidden">
                         <button type="button" class="block" @click="isOpen = !isOpen">
@@ -18,7 +18,7 @@
                 </div>
                 <ul class="flex-col mt-3 md:flex-row md:items-center md:flex md:mt-0" :class="isOpen? 'flex' : 'hidden'">
                     <li class="py-1"><a href="#">Mentorship</a></li>
-                    <li class="py-1 md:ml-3"><a href="#">Contact</a></li>
+                    <li class="py-1 md:ml-3"><router-link to="contact">Contact</router-link></li>
                     <li class="py-1 md:ml-3 flex">
                         <a href="https://twitter.com/miaababikir" target="_blank">
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
