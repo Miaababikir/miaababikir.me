@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <ul class="flex-col mt-3 md:flex-row md:items-center md:flex md:mt-0" :class="isOpen? 'flex' : 'hidden'">
-                    <li class="py-1"><a href="#">Mentorship</a></li>
+                    <li class="py-1"><router-link to="mentorship">Mentorship</router-link></li>
                     <li class="py-1 md:ml-3"><router-link to="contact">Contact</router-link></li>
                     <li class="py-1 md:ml-3 flex">
                         <a href="https://twitter.com/miaababikir" target="_blank">
