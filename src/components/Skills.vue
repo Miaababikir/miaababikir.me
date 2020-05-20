@@ -13,7 +13,7 @@
                               fill="currentColor"/>
                     </svg>
                     <h2 class="mt-4 text-2xl font-semibold tracking-wide">Back-end</h2>
-                    <p class="px-8 mt-8 text-gray-600">I like to code things from scratch, and enjoy bringing ideas
+                    <p class="px-8 mt-8 text-gray-600">I like to build things from scratch, and enjoy bringing ideas
                         to life in the browser.</p>
                     <p class="mt-8 text-indigo-600 text-lg">Things I enjoy building</p>
                     <p class="px-8 mt-4 text-gray-600">Web apps, APIs, Tools, Automating things</p>
@@ -30,12 +30,11 @@
                               fill="currentColor"/>
                     </svg>
                     <h2 class="mt-4 text-2xl font-semibold tracking-wide">Front-end</h2>
-                    <p class="px-8 mt-8 text-gray-600">I like to code things from scratch, and enjoy bringing ideas
-                        to life in the browser.</p>
+                    <p class="px-8 mt-8 text-gray-600">I am not a designer but I love designing elegant and simple UI, I adore nice looking website.</p>
                     <p class="mt-8 text-indigo-600 text-lg">Things I enjoy designing</p>
                     <p class="px-8 mt-4 text-gray-600">Elegant and simple UI components</p>
                     <p class="mt-8 text-indigo-600 text-lg">Technology I use</p>
-                    <p class="px-8 mt-4 text-gray-600">CSS, Javascript, Vue js</p>
+                    <p class="px-8 mt-4 text-gray-600">CSS, Javascript, Vue js, Tailwind CSS</p>
                 </div>
             </div>
             <div class="border-t md:border-none py-10 md:w-1/3">
@@ -47,12 +46,11 @@
                               fill="currentColor"/>
                     </svg>
                     <h2 class="mt-4 text-2xl font-semibold tracking-wide">Mentor</h2>
-                    <p class="px-8 mt-8 text-gray-600">I like to code things from scratch, and enjoy bringing ideas
-                        to life in the browser.</p>
-                    <p class="mt-8 text-indigo-600 text-lg">Things I enjoy building</p>
-                    <p class="px-8 mt-4 text-gray-600">Web apps, APIs, Tools, Automating things</p>
-                    <p class="mt-8 text-indigo-600 text-lg">Technology I use</p>
-                    <p class="px-8 mt-4 text-gray-600">PHP, Laravel, Mysql</p>
+                    <p class="px-8 mt-8 text-gray-600">I love working with new developers and helping them to getup on their feet</p>
+                    <p class="mt-8 text-indigo-600 text-lg">Experiences I draw from</p>
+                    <p class="px-8 mt-4 text-gray-600">Web development, Teaching, Freelancing</p>
+                    <p class="mt-8 text-indigo-600 text-lg">Mentor Stats</p>
+                    <p class="px-8 mt-4 text-gray-600">10+ Students <br> 2 years experience</p>
                 </div>
             </div>
         </div>

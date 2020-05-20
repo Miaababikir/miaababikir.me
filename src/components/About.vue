@@ -10,9 +10,9 @@
             <h2 class="text-2xl md:text-3xl font-semibold tracking-wide">Hi, <span class="bg-indigo-700 px-2">I'm Mosab</span>.
                 Nice to meet you.</h2>
             <p class="mt-4 text-gray-300 md:text-lg">I am software engineer. I spend my days building, designing,
-                developing web applications, playing video games mostly Minecraft, trying new technologies and
-                mentoring beginners and motivated programmers in my collage. I love talking and geeking about
-                programming and about what am building. And sharing programming goodness with the community ❤️.</p>
+                developing web applications, playing video games, trying new technologies and
+                mentoring beginners and motivated programmers. I love talking and geeking about
+                programming and about what am building. And I also love sharing programming goodness with the community ❤️.</p>
         </div>
     </div>
 </template>

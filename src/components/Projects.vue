@@ -3,7 +3,7 @@
         <div class="bg-gray-800 text-gray-200 text-center pt-20 mt-20">
             <div class="container mx-auto px-4 md:px-0">
                 <h2 class="text-4xl font-semibold">My Recent Work</h2>
-                <p class="text-gray-400 text-lg">Here are a few design projects I've worked on recently. Want to see
+                <p class="text-gray-400 text-lg">Here are a few web apps I've worked on recently. Want to see
                     more?
                     <a href="https://github.com/Miaababikir" class="text-indigo-500">Github</a></p>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
